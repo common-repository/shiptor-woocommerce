@@ -1,0 +1,91 @@
+.shiptor-calculate-product {
+    width:100%;
+    clear:both;
+    margin-bottom:25px;
+}
+
+.shiptor-calculate-product__label {
+    width:100px;
+    float:left;
+    line-height:32px;
+}
+
+.shiptor-calculate-product__select {
+    width:calc(100% - 100px);
+    float:left;
+    max-width:350px;
+}
+
+.shiptor-calculate-product__select > select {
+    width:100%;
+}
+
+.shiptor-calculate-product__result {
+    display:block;
+    list-style:none;
+    margin:0;
+    padding:0;
+    max-height:125px;
+    overflow:auto;
+    position:relative;
+}
+
+.shiptor-calculate-product__result::after {
+    content: '';
+    position: absolute;
+    top: auto;
+    right: 0;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    height:25px;
+    background: #FFF;
+    background: -moz-linear-gradient(90deg, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 1) 100%);
+    background: -o-linear-gradient(90deg, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 1) 100%);
+    background: -ms-linear-gradient(90deg, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 1) 100%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 1) 100%);
+}
+
+.shiptor-calculate-product__elem {
+    display:block;
+    float:left;
+    width:100%;
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.shiptor-calculate-product__elem > div {
+    border-radius:3px;
+    padding:5px 10px;
+    background-color:#FFF;
+    border: 1px solid #aaa;
+}
+.shiptor-calculate-product__elem > div > span {
+    display:inline-block;
+    width:100%;
+}
+.shiptor-calculate-product__elem > div > span.shiptor-method-name {
+    font-weight:700;
+}
+.shiptor-calculate-product__elem > div:hover {
+    background-color:#f2f2f2;
+}
+
+button#update_shipping_info{
+    margin-left:20px;
+}
+button#update_shipping_info:after {
+    content: '';
+}
+button#update_shipping_info .fa-refresh:before {
+    margin-left: 10px;
+}
+@media screen and (max-width: 766px) {
+    button#update_shipping_info {
+        float: left;
+        margin-top: 13px;
+        margin-left:64px;
+    }
+}

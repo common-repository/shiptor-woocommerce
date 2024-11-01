@@ -1,0 +1,63 @@
+.hidden,
+.hide,
+.form-row-hidden {
+    display:none;
+}
+
+.shiptor-delivery-points {
+    width:100%;
+    min-height:450px;
+    background-color:#f8f8f8;
+    margin-top:1.5rem;
+    margin-bottom:1.5rem;
+}
+
+.shiptor-delivery-points.hidden{
+    margin:0;
+    display:none;
+}
+
+.shiptor-checkpoint-list {
+    list-style-type: none;
+    margin: 10px 0 15px;
+}
+
+.shiptor-checkpoint-list .shiptor-checkpoint {
+    position: relative;
+    padding-left: 40px;
+    font-size: 14px;
+    line-height: 1.57142857;
+}
+
+.shiptor-checkpoint-list .shiptor-checkpoint:not(:last-child) {
+    padding-bottom: 20px;
+}
+
+.shiptor-checkpoint-list .shiptor-checkpoint:not(:last-child):before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 9px;
+    width: 1px;
+    height: 100%;
+    background-color: #aab2bd;
+}
+
+.shiptor-checkpoint-list .shiptor-checkpoint:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 19px;
+    height: 23px;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSIxOXB4IiBoZWlnaHQ9IjIzLjAxNnB4IiB2aWV3Qm94PSIwIDAgMTkgMjMuMDE2IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxOSAyMy4wMTYiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIGZpbGw9IiMwMDQ5NjYiIGQ9Ik0xOSw5LjVjMCw1LjI0Ny00Ljc1LDEwLjE4OC05LjUsMTMuNTE2QzQuNDY5LDE5LjY4OCwwLDE0Ljc0NywwLDkuNVM0LjI1MywwLDkuNSwwQzE0Ljc0NywwLDE5LDQuMjUzLDE5LDkuNXoiLz48Y2lyY2xlIGZpbGw9IiNGRkZGRkYiIGN4PSI5LjUiIGN5PSI5LjUiIHI9IjMiLz48L3N2Zz4=) 50% 50% no-repeat;
+    background-size: contain;
+}
+
+.shiptor-checkpoint-list .shiptor-checkpoint .shiptor-description {
+    line-height: 26px;
+}
+
+.shiptor-checkpoint-list .shiptor-checkpoint .shiptor-name {
+    color: #808080;
+}

@@ -1,0 +1,84 @@
+.tabs-wrapper {
+    display: flex;
+    width: 98%;
+    border: 1px solid #016087;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.tabs-wrapper .tabs{
+    width: 200px;
+    background-color: #f1f1f1;
+    padding: 5px;
+    margin: 0;
+    overflow-y: scroll;
+}
+
+.tabs-wrapper .tabs > .tab > a{
+    color: #000;
+    border-radius: 4px;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.tabs-wrapper .tabs > .tab.enabled > a{
+    background-color: #39aa0c;
+}
+.tabs-wrapper .tabs > .tab.enabled.active > a,
+.tabs-wrapper .tabs > .tab.enabled:hover > a,
+.tabs-wrapper .tabs > .tab.enabled:focus > a{
+    background-color: #1C5506
+}
+
+.tabs-wrapper .tabs > .tab > a,
+.tabs-wrapper .tabs > .tab.disabled > a{
+    background-color: #808080
+}
+.tabs-wrapper .tabs > .tab.disabled.active > a,
+.tabs-wrapper .tabs > .tab.disabled:hover > a,
+.tabs-wrapper .tabs > .tab.disabled:focus > a{
+    background-color: #595959
+}
+
+.tabs-wrapper .tabs > .tab.invalid > a{
+    color: #db1818 !important;
+    background-color: #fff;
+    border: 1px solid #db1818 !important;
+}
+.tabs-wrapper .tabs > .tab.invalid.active > a,
+.tabs-wrapper .tabs > .tab.invalid:hover > a,
+.tabs-wrapper .tabs > .tab.invalid:focus > a{
+    background-color: #CCCCCC;
+}
+
+.tabs-wrapper .tab-content {
+    padding: 5px;
+    flex: 1;
+}
+
+.tabs-wrapper .tab-content > .tab-pane {
+    padding-left: 7px;
+    display: none;
+}
+
+.tabs-wrapper .tab-content > .tab-pane.active {
+    display: block;
+}
+
+.woocommerce table.form-table .required-mark {
+    color: #ff0000;
+}
+
+.tab-pane-header .method-title > a {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.tab-pane-header .method-description {
+    font-size: 14px;
+    font-style: italic;
+}

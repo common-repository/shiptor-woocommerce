@@ -1,0 +1,193 @@
+.jquery-modal.blocker {
+    z-index: 9999 !important;
+}
+
+.jquery-modal-popup.wc-shiptor-jquery-modal {
+    max-width: 90%;
+    max-height: 90%;
+    min-height: 340px;
+    padding: 5px 10px;
+}
+
+.wc-shiptor-jquery-modal .wc-shiptor-jquery-modal-title{
+    font-size: 25px;
+    text-align: center;
+}
+
+.wc-shiptor-jquery-modal .wc-shiptor-jquery-modal-title{
+    padding: 5px;
+}
+
+.wc-shiptor-jquery-modal .wc-shiptor-pickpoints{
+    display: flex;
+}
+
+.wc-shiptor-jquery-modal .wc-shiptor-pickpoints{
+    height: 70vh;
+}
+
+.wc-shiptor-jquery-modal .wc-shiptor-pickpoints .pickpoints-list{
+    width: 30%;
+    overflow-y: scroll;
+    height: 100%;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.wc-shiptor-jquery-modal .wc-shiptor-pickpoints .pickpoints-map{
+    width: 70%;
+    height: 100%;
+}
+
+.wc-shiptor-pickpoints .pickpoints-map .shiptor-delivery-points{
+    margin: 0;
+    height: 100%;
+    min-height: 100%;
+}
+.wc-shiptor-pickpoints .delivery-point{
+    padding: 5px;
+    border-bottom: 1px solid #e5e5e5;
+    margin: 0;
+    cursor: pointer;
+}
+
+.wc-shiptor-pickpoints .delivery-point.active{
+    background-color: #f5f3e3;
+}
+
+.wc-shiptor-pickpoints .delivery-point .delivery-point-description{
+    display: none;
+}
+
+.wc-shiptor-pickpoints .delivery-point.active .delivery-point-description{
+    display: block;
+}
+
+.wc-shiptor-pickpoints .delivery-point .delivery-point-address{
+    font-weight: bold;
+}
+
+.wc-shiptor-pickpoints .delivery-point .delivery-point-description > div {
+    margin-top: 5px;
+}
+
+.wc-shiptor-jquery-modal .wc-shiptor-jquery-modal-footer .inner{
+    text-align: center;
+    padding: 5px;
+}
+
+.wc-shiptor-jquery-modal .wc-shiptor-jquery-modal-footer .inner-mobile{
+    display: none;
+}
+
+.wc-shiptor-jquery-modal button{
+    padding: 4px 15px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.wc-shiptor-jquery-modal .wc-shiptor-jquery-save{
+    background: #007cba;
+}
+
+.wc-shiptor-jquery-save_full {
+    background: #007cba;
+    color: white;
+    position: absolute;
+    left: calc(50% - 225px / 2);
+    top: 90vh;
+}
+
+.shiptor-delivery-points .wc-shiptor-jquery-save_full {
+    display: none;
+}
+
+.wc-shiptor-jquery-modal .wc-shiptor-jquery-view-switcher{
+    background: #007cba;
+}
+
+.wc-shiptor-delivery-point-selector{
+    color: #000;
+}
+
+.wc-shiptor-delivery-point-selector_wrapper .wc-shiptor-delivery-point-selector.point-empty{
+    display: inline-block;
+    font-size: 13px;
+    line-height: 2.15384615;
+    min-height: 30px;
+    margin: 0;
+    padding: 0 10px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    background: #007cba;
+    border-color: #007cba;
+    color: #fff;
+    text-decoration: none !important;
+    text-shadow: none;
+}
+
+.wc-shiptor-delivery-point-selector_wrapper .wc-shiptor-delivery-point-selector.point-choosen{
+    text-decoration: underline !important;
+}
+
+@media (max-width: 767px) {
+    .wc-shiptor-jquery-modal .wc-shiptor-pickpoints{
+        height: 50vh;
+    }
+
+    .wc-shiptor-jquery-modal .wc-shiptor-pickpoints .pickpoints-column{
+        width: 100%;
+        display: none;
+    }
+
+    .wc-shiptor-jquery-modal .wc-shiptor-pickpoints .pickpoints-column[mobile-view="show"]{
+        display: block;
+    }
+
+    .wc-shiptor-jquery-modal .wc-shiptor-jquery-modal-title{
+        font-size: 18px;
+    }
+
+    .wc-shiptor-jquery-modal .wc-shiptor-jquery-modal-footer .inner-mobile{
+        display: block;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .modal.modal.wc-shiptor-jquery-modal {
+        max-height: 95%;
+    }
+
+    .wc-shiptor-jquery-modal .wc-shiptor-pickpoints .pickpoints-list{
+        font-size: 13px;
+    }
+
+    .wc-shiptor-jquery-modal .wc-shiptor-jquery-modal-title{
+        font-size: 18px;
+    }
+
+    .wc-shiptor-jquery-modal button{
+        padding: 4px 15px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .wc-shiptor-jquery-modal button{
+        padding: 3px 15px;
+        font-size: 15px;
+    }
+
+    .wc-shiptor-jquery-modal .wc-shiptor-jquery-modal-title{
+        font-size: 20px;
+    }
+
+    .wc-shiptor-jquery-modal .wc-shiptor-pickpoints .pickpoints-list{
+        font-size: 13px;
+    }
+
+}

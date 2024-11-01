@@ -1,0 +1,13 @@
+input[required="required"]:invalid {
+    border-color:#ca4a1f;
+}
+
+.woocomerce-shiptor-log-analyzer-logs{
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+
+.woocomerce-shiptor-log-analyzer-actions{
+    margin-top: 4px;
+    margin-bottom: 8px;
+}

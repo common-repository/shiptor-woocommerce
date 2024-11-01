@@ -1,0 +1,27 @@
+.wc-shiptor-stock {
+    width:100%;
+    margin-top:5px;
+    position: relative;
+}
+.wc-shiptor-stock > span {
+    display:inline-block;
+    position: relative;
+    float: left;
+    padding: 3px 12px;
+    font-size: 13px;
+    line-height: 1.38461538;
+    border-radius: 3px;
+    border: 1px solid #CCC;
+}
+
+.wc-shiptor-stock > span:first-child {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    margin-left: 0;
+}
+
+.wc-shiptor-stock > span:last-child {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    margin-left: -1px;
+}

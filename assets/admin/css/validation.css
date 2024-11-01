@@ -1,0 +1,3 @@
+input[required="required"]:invalid {
+    border-color: red;
+}

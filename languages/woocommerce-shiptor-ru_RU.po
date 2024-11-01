@@ -1,0 +1,1418 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Shiptor\n"
+"POT-Creation-Date: 2020-05-14 12:59+0000\n"
+"PO-Revision-Date: 2021-05-11 10:24+0300\n"
+"Last-Translator: \n"
+"Language-Team: Русский\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 "
+"&& (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c;_nc:4c,1,2;_nx:4c,1,2;_x:1,2c;_nx_noop:4c,1,2;_ex:1,2c;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Loco-Version: 2.4.3; wp-5.5.1\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: includes/class-wc-shiptor-autofill-addresses.php:160
+msgid "Missing city name paramater."
+msgstr "Отсутсвует нараметр названия города."
+
+#: includes/class-wc-shiptor-autofill-addresses.php:171
+#, php-format
+msgid "Invalid %s city name."
+msgstr "%s недопустимое название населенного пункта."
+
+#: includes/class-wc-shiptor-checkout.php:64
+msgid "Cash on delivery"
+msgstr ""
+
+#: includes/class-wc-shiptor-checkout.php:65
+#: includes/admin/views/html-admin-create-order.php:287
+msgid "Payment by card"
+msgstr "Оплата по карте"
+
+#: includes/class-wc-shiptor-checkout.php:156
+msgid "KLADR ID"
+msgstr "КЛАДР ID"
+
+#: includes/class-wc-shiptor-checkout.php:228
+msgid "Shipping other class"
+msgstr "Другой класс доставки"
+
+#: includes/class-wc-shiptor-checkout.php:541
+#, php-format
+msgid "For %s shipping method need choose delivery point"
+msgstr "Для метода доставки %s необходимо выбрать пункт выдачи заказов"
+
+#: includes/class-wc-shiptor-checkout.php:557
+#, php-format
+msgid "The delivery point selected can not be found in the city %s"
+msgstr "Выбранный ПВЗ не найден в городе %s"
+
+#: includes/class-wc-shiptor-checkout.php:628
+#: includes/admin/views/html-admin-yandex-map-template.php:6
+#: templates/checkout/modals/pickpoints.php:6
+msgid "Choose pickpoint"
+msgstr "Выберите пункт выдачи"
+
+#: includes/class-wc-shiptor-gateway-cod.php:11
+msgid "Card on delivery"
+msgstr "Оплата картой при доставке"
+
+#: includes/class-wc-shiptor-gateway-cod.php:12
+msgid "Have your customers pay with card upon delivery."
+msgstr "Пусть ваши клиенты платят банковской картой при доставке."
+
+#: includes/class-wc-shiptor-integration.php:73
+msgid "Sender city required"
+msgstr "Обязательное поле город отправителя"
+
+#: includes/class-wc-shiptor-integration.php:88
+msgid "There are no delivery points that meet the order requirements"
+msgstr "Нет ни одного пункта доставки, который соответствовал бы требованиям заказа"
+
+#: includes/class-wc-shiptor-integration.php:129
+#: includes/class-wc-shiptor-integration.php:666
+#: includes/class-wc-shiptor-integration.php:681
+#: includes/class-wc-shiptor-integration.php:695
+#: includes/class-wc-shiptor-integration.php:717
+msgid "Missing parameters!"
+msgstr "Параметры отсутсвуют!"
+
+#: includes/class-wc-shiptor-integration.php:133
+#: includes/class-wc-shiptor-integration.php:670
+#: includes/class-wc-shiptor-integration.php:685
+#: includes/class-wc-shiptor-integration.php:699
+#: includes/class-wc-shiptor-integration.php:721
+msgid "Invalid nonce!"
+msgstr "Код протекции неверный!"
+
+#: includes/class-wc-shiptor-integration.php:145
+msgid "View logs."
+msgstr "Посмотреть логи."
+
+#: includes/class-wc-shiptor-integration.php:158
+#: includes/admin/views/html-admin-tabs.php:16
+msgid "Shiptor integration API"
+msgstr "Интеграция с API Shiptor"
+
+#: includes/class-wc-shiptor-integration.php:160
+msgid "Main settings for Shiptor integration"
+msgstr "Основные настройки интеграции"
+
+#: includes/class-wc-shiptor-integration.php:163
+msgid "API token"
+msgstr "Токен"
+
+#: includes/class-wc-shiptor-integration.php:165
+msgid "Enter API Token here"
+msgstr "Введите API Токен сюда"
+
+#: includes/class-wc-shiptor-integration.php:166
+#: includes/class-wc-shiptor-integration.php:752
+msgid ""
+"The Token API is required for the plugin to work. You can get it in your personal "
+"account https://shiptor.ru/account/settings/api"
+msgstr ""
+"Для работы плагина требуется Token API. Вы можете получить его в своем <a href="
+"\"https://shiptor.ru/account/settings/api\">личном кабинете</a>"
+
+#: includes/class-wc-shiptor-integration.php:170
+msgid "Town / City"
+msgstr "Город"
+
+#: includes/class-wc-shiptor-integration.php:174
+msgid "Select the city of delivery and departure (end-to-end delivery) by default."
+msgstr "Выберите город доставки и отправления (сквозная) по умолчанию."
+
+#: includes/class-wc-shiptor-integration.php:177
+#: includes/shipping/class-wc-shiptor-shipping-host.php:747
+msgid "Shiptor warehouse"
+msgstr "Склад Shiptor"
+
+#: includes/class-wc-shiptor-integration.php:181
+#: includes/shipping/class-wc-shiptor-shipping-host.php:752
+msgid "Shipment terminal or fulfillment warehouse"
+msgstr ""
+
+#: includes/class-wc-shiptor-integration.php:184
+msgid "Status update interval"
+msgstr "Интервал обновления статусов"
+
+#: includes/class-wc-shiptor-integration.php:188
+msgid "Set the refresh interval for the delivery order processing statuses"
+msgstr "Установите интервал обновления для статусов обработки заказа на доставку"
+
+#: includes/class-wc-shiptor-integration.php:190
+msgid "One minute"
+msgstr "1 минута"
+
+#: includes/class-wc-shiptor-integration.php:191
+msgid "Five minutes"
+msgstr "5 минут"
+
+#: includes/class-wc-shiptor-integration.php:192
+msgid "15 minutes"
+msgstr "15 минут"
+
+#: includes/class-wc-shiptor-integration.php:193
+msgid "30 minutes"
+msgstr "Полчаса"
+
+#: includes/class-wc-shiptor-integration.php:194
+msgid "One hour"
+msgstr "Один час"
+
+#: includes/class-wc-shiptor-integration.php:198
+msgid "Sort shipping methods"
+msgstr "Сортировка методов доставки"
+
+#: includes/class-wc-shiptor-integration.php:202
+msgid "Sort shipping methods by"
+msgstr "Сортировать методы"
+
+#: includes/class-wc-shiptor-integration.php:206
+msgid "By Default"
+msgstr "По умолчанию"
+
+#: includes/class-wc-shiptor-integration.php:207
+msgid "By Cost"
+msgstr "По стоимости"
+
+#: includes/class-wc-shiptor-integration.php:208
+msgid "By time of delivery"
+msgstr "По времени доставки"
+
+#: includes/class-wc-shiptor-integration.php:212
+#: includes/class-wc-shiptor-integration.php:282
+#: includes/class-wc-shiptor-integration.php:288
+#: includes/class-wc-shiptor-integration.php:294
+#: includes/class-wc-shiptor-integration.php:300
+#: includes/class-wc-shiptor-integration.php:306
+#: includes/class-wc-shiptor-integration.php:312
+#: includes/emails/class-wc-shiptor-tracking-email.php:40
+msgid "Enable/Disable"
+msgstr "Вкл/Выкл"
+
+#: includes/class-wc-shiptor-integration.php:214
+msgid "Enable shipping methods sorting by shipping classes. (Not available yet.)"
+msgstr ""
+"Включить сортировку методов доставки по классам доставки. (Пока не доступно.)"
+
+#: includes/class-wc-shiptor-integration.php:219
+msgid "Cron"
+msgstr "Крон"
+
+#: includes/class-wc-shiptor-integration.php:223
+msgid "Cron order status"
+msgstr "Статус заказа"
+
+#: includes/class-wc-shiptor-integration.php:225
+msgid "Statuses for sending orders to shiptor by cron"
+msgstr "Статусы для отправления заказов на shiptor по крону"
+
+#: includes/class-wc-shiptor-integration.php:230
+msgid "Cron period"
+msgstr "Период запуска крона"
+
+#: includes/class-wc-shiptor-integration.php:240
+msgid "API token Yandex.Maps"
+msgstr "API-ключ Яндекс.Карт"
+
+#: includes/class-wc-shiptor-integration.php:242
+msgid ""
+"The Yandex.Maps API key for connecting the search string on the map can be "
+"obtained from <a target=\"_blank\" href=\"https://developer.tech.yandex.ru/"
+"services/\">Developer's Office</a>"
+msgstr ""
+"API-ключ Яндекс.Карт для подключения поисковой строки по карте можно получить в "
+"<a target=\"_blank\" href=\"https://developer.tech.yandex.ru/services/\">Кабинете "
+"разработчика</a>"
+
+#: includes/class-wc-shiptor-integration.php:233
+msgid "1 hour"
+msgstr "1 час"
+
+#: includes/class-wc-shiptor-integration.php:234
+msgid "3 hours"
+msgstr "3 часа"
+
+#: includes/class-wc-shiptor-integration.php:235
+msgid "6 hours"
+msgstr "6 часов"
+
+#: includes/class-wc-shiptor-integration.php:236
+msgid "12 hours"
+msgstr "12 часов"
+
+#: includes/class-wc-shiptor-integration.php:242
+#: includes/admin/views/html-admin-tabs.php:17
+msgid "Product options"
+msgstr "Опции товара"
+
+#: includes/class-wc-shiptor-integration.php:244
+msgid ""
+"These parameters will be used by default if the item is not filled with these "
+"parameters"
+msgstr ""
+"Эти параметры будут использованы по-умолчанию если в карточке товара они будут не "
+"заполнены"
+
+#: includes/class-wc-shiptor-integration.php:247
+msgid "Default weight, (kg)"
+msgstr "Масса по умолчанию, (кг)"
+
+#: includes/class-wc-shiptor-integration.php:254
+msgid "Default height, (cm)"
+msgstr "Высота по умолчанию, (см)"
+
+#: includes/class-wc-shiptor-integration.php:261
+msgid "Default Width, (cm.)"
+msgstr "Ширина по умолчанию, (см.)"
+
+#: includes/class-wc-shiptor-integration.php:268
+msgid "Default length, (cm.)"
+msgstr "Длина по умолчанию (см.)"
+
+#: includes/class-wc-shiptor-integration.php:277
+#: includes/admin/views/html-admin-tabs.php:18
+msgid "Delivery options"
+msgstr "Опции доставки"
+
+#: includes/class-wc-shiptor-integration.php:279
+#: includes/class-wc-shiptor-integration.php:322
+msgid ""
+"Displays a table with informations about the shipping in My Account > View Order "
+"page."
+msgstr "Показывать информацию о статусе доствки в личном кабинете пользователя."
+
+#: includes/class-wc-shiptor-integration.php:284
+msgid "Enable Tracking History Table"
+msgstr "Включить отслеживание доставки"
+
+#: includes/class-wc-shiptor-integration.php:290
+msgid "Enable Tracking History debug"
+msgstr "Включить отладку истории отслеживания"
+
+#: includes/class-wc-shiptor-integration.php:296
+msgid "Enable create order debug"
+msgstr "Включить отладку для создания заказов"
+
+#: includes/class-wc-shiptor-integration.php:302
+msgid "Show delivery methods in the product card"
+msgstr "Показывать способы доставки в карточке товара"
+
+#: includes/class-wc-shiptor-integration.php:308
+msgid "Show prices including cash on delivery and insurance"
+msgstr "Показывать цены с учетом наложенного платежа и страховки"
+
+#: includes/class-wc-shiptor-integration.php:314
+msgid "Insure parcels for export"
+msgstr "Страховать посылки на экспорт"
+
+#: includes/class-wc-shiptor-integration.php:323
+msgid "Rounding shipping costs"
+msgstr "Округление стоимости доставки"
+
+#: includes/class-wc-shiptor-integration.php:327
+msgid "Do not round"
+msgstr "Не округлять"
+
+#: includes/class-wc-shiptor-integration.php:328
+msgid "Up to units"
+msgstr "До единиц"
+
+#: includes/class-wc-shiptor-integration.php:329
+msgid "Up to tens"
+msgstr "До десятков"
+
+#: includes/class-wc-shiptor-integration.php:330
+msgid "Up to hundreds"
+msgstr "До сотен"
+
+#: includes/class-wc-shiptor-integration.php:334
+msgid "Rounding type"
+msgstr "Тип округления"
+
+#: includes/class-wc-shiptor-integration.php:338
+msgid "Mathematical"
+msgstr "Математический"
+
+#: includes/class-wc-shiptor-integration.php:339
+msgid "In favor of the client"
+msgstr "В пользу клиента"
+
+#: includes/class-wc-shiptor-integration.php:340
+msgid "In favor of the store"
+msgstr "В пользу магазина"
+
+#: includes/class-wc-shiptor-integration.php:320
+#: includes/admin/views/html-admin-tabs.php:19
+msgid "Autofill Addresses"
+msgstr "Автозаполнение адреса"
+
+#: includes/class-wc-shiptor-integration.php:325
+msgid "Cities list Validity"
+msgstr "Актуальность списка городов"
+
+#: includes/class-wc-shiptor-integration.php:329
+msgid ""
+"Defines how long a cities will stay saved in the database before a new query."
+msgstr ""
+"Определяет, как долго города будут сохраняться в базе данных перед новым запросом."
+
+#: includes/class-wc-shiptor-integration.php:331
+msgid "1 month"
+msgstr "1 месяц"
+
+#: includes/class-wc-shiptor-integration.php:332
+#: includes/class-wc-shiptor-integration.php:333
+#: includes/class-wc-shiptor-integration.php:334
+#: includes/class-wc-shiptor-integration.php:335
+#: includes/class-wc-shiptor-integration.php:336
+#: includes/class-wc-shiptor-integration.php:337
+#: includes/class-wc-shiptor-integration.php:338
+#: includes/class-wc-shiptor-integration.php:339
+#: includes/class-wc-shiptor-integration.php:340
+#: includes/class-wc-shiptor-integration.php:341
+#: includes/class-wc-shiptor-integration.php:342
+#, php-format
+msgid "%d months"
+msgstr "%d месяца(ов)"
+
+#: includes/class-wc-shiptor-integration.php:343
+msgid "Forever"
+msgstr "Всегда"
+
+#: includes/class-wc-shiptor-integration.php:347
+#: includes/class-wc-shiptor-integration.php:349
+msgid "Empty Database"
+msgstr "Очистить базу данных"
+
+#: includes/class-wc-shiptor-integration.php:350
+msgid ""
+"Delete all the saved cities in the database, use this option if you have issues "
+"with outdated cities."
+msgstr ""
+"Удалите все сохраненные города в базе данных, используйте эту опцию, если у вас "
+"есть проблемы с устаревшими городами."
+
+#: includes/class-wc-shiptor-integration.php:355
+msgid "Requests caching"
+msgstr "Кэширование запросов"
+
+#: includes/class-wc-shiptor-integration.php:357
+msgid "Cache queries to speed up results."
+msgstr "Кэшировать запросы, чтобы ускорить получение результатов."
+
+#: includes/class-wc-shiptor-integration.php:360
+msgid "Caching"
+msgstr "Кэширование"
+
+#: includes/class-wc-shiptor-integration.php:362
+msgid "Enable requests caching"
+msgstr "Включить кэширование запросов"
+
+#: includes/class-wc-shiptor-integration.php:366
+#: includes/class-wc-shiptor-integration.php:368
+msgid "Empty cache"
+msgstr "Очистить кэш"
+
+#: includes/class-wc-shiptor-integration.php:369
+msgid "Delete all the saved requests."
+msgstr "Удалить сохраненные запросы."
+
+#: includes/class-wc-shiptor-integration.php:372
+msgid "Enable common debug log"
+msgstr "Включить общий файл лога"
+
+#: includes/class-wc-shiptor-integration.php:418
+#, php-format
+msgid ""
+"Are you sure you want to delete all (%d) cities from the database? If you delete "
+"all cities, the settings associated with cities may be reset."
+msgstr ""
+"Вы уверены что хотите удалить все (%d) города из базы данных? Если вы удалите все "
+"города, то настройки связанные с городами, могут быть сброшены."
+
+#: includes/class-wc-shiptor-integration.php:419
+msgid "Are you sure you want to delete all cached requests?"
+msgstr "Вы уверены что хотите удалить все закэшированные запросы?"
+
+#: includes/class-wc-shiptor-integration.php:420
+msgid "Are you sure you want to delete all shiptor logs"
+msgstr "Вы уверены, что хотите удалить все логи запросов?"
+
+#: includes/class-wc-shiptor-integration.php:434
+#: includes/shipping/class-wc-shiptor-shipping-host.php:628
+msgid "Not selected"
+msgstr "Не выбрано"
+
+#: includes/class-wc-shiptor-integration.php:618
+msgid "Analyze log"
+msgstr "Анализ лога"
+
+#: includes/class-wc-shiptor-integration.php:619
+msgid "Clear logs"
+msgstr "Удалить логи"
+
+#: includes/class-wc-shiptor-integration.php:675
+msgid "Cities database emptied successfully!"
+msgstr "База данных городов успешно очищена!"
+
+#: includes/class-wc-shiptor-integration.php:689
+msgid "Logs emptied successfully!"
+msgstr "Логи успешно удалены!"
+
+#: includes/class-wc-shiptor-integration.php:706
+msgid "Requests cache emptied successfully!"
+msgstr "Закэшированные запросы успешно удалены!"
+
+#: includes/class-wc-shiptor-integration.php:708
+msgid "Error happen while clearing requests cache!"
+msgstr "Возникла ошибка во время удаления кэша запросов!"
+
+#: includes/class-wc-shiptor-integration.php:752
+msgid "Empty API token. "
+msgstr "Не указан API token. "
+
+#: includes/class-wc-shiptor-rest-api.php:45
+msgid "Shiptor tracking code."
+msgstr "Код отслеживания Shiptor."
+
+#: includes/class-wc-shiptor-single-product.php:63
+#: includes/shipping/class-wc-shiptor-shipping-host.php:128
+msgid "Choose an city"
+msgstr "Выберите город"
+
+#: includes/class-wc-shiptor-single-product.php:64
+msgid ""
+"There are no delivery methods to your region for the specified shopping cart "
+"settings."
+msgstr "Для указанных параметров корзины нету способов доставки в ваш регион."
+
+#: includes/class-wc-shiptor-single-product.php:257
+#: includes/shipping/class-wc-shiptor-shipping-host.php:818
+msgid "Free shipping"
+msgstr "Бесплатная доставка"
+
+#: includes/class-wc-shiptor-single-product.php:264
+#, php-format
+msgid "From: %d %s"
+msgstr "От: %d %s"
+
+#: includes/class-wc-shiptor-tracking-history.php:30
+#, php-format
+msgid "Fetching tracking history for \"%s\" on Shiptor API..."
+msgstr "Получение истории отслуживания для \"%s\" из Shiptor API..."
+
+#: includes/class-wc-shiptor-tracking-history.php:42
+#, php-format
+msgid "Tracking history data: %s"
+msgstr "Данные истории отслеживания: %s"
+
+#: includes/class-wc-shiptor.php:75
+msgid "Every minute"
+msgstr "Каждую минуту"
+
+#: includes/class-wc-shiptor.php:79
+msgid "Every five minutes"
+msgstr "Каждые 5 минут"
+
+#: includes/class-wc-shiptor.php:83
+msgid "Every fifteen minutes"
+msgstr "Каждые 15 минут"
+
+#: includes/class-wc-shiptor.php:87
+msgid "Every an half hour"
+msgstr "Каждые полчаса"
+
+#: includes/class-wc-shiptor.php:91
+msgid "Every hour"
+msgstr "Каждый час"
+
+#: includes/class-wc-shiptor.php:95
+msgid "Every three hours"
+msgstr "Каждые три часа"
+
+#: includes/class-wc-shiptor.php:99
+msgid "Every six hours"
+msgstr "Каждые шесть часов"
+
+#: includes/class-wc-shiptor.php:103
+msgid "Every twelve hours"
+msgstr "Каждые двенадцать часов"
+
+#: includes/class-wc-shiptor.php:189
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/wc-shiptor-functions.php:67
+#, php-format
+msgid "Delivery time - %s day"
+msgid_plural "Delivery time - %s days"
+msgstr[0] "Срок доставки - %s день"
+msgstr[1] "Срок доставки - %s дня"
+msgstr[2] "Срок доставки - %s дней"
+
+#: includes/wc-shiptor-functions.php:216
+#, php-format
+msgid "Added a Shiptor tracking code: %s"
+msgstr "Добавлен код отслеживания Shiptor: %s"
+
+#: includes/wc-shiptor-functions.php:266
+msgid "New"
+msgstr "Новый"
+
+#: includes/wc-shiptor-functions.php:267
+msgid "Check declaration"
+msgstr "Проверка декларации"
+
+#: includes/wc-shiptor-functions.php:268
+msgid "Declaration Verified"
+msgstr "Декларация проверена"
+
+#: includes/wc-shiptor-functions.php:269
+msgid "Waiting for pick-up"
+msgstr "Ожидает забора"
+
+#: includes/wc-shiptor-functions.php:270
+msgid "Arrived at the warehouse"
+msgstr "Прибыла на склад"
+
+#: includes/wc-shiptor-functions.php:271
+msgid "Packed"
+msgstr "Упакована"
+
+#: includes/wc-shiptor-functions.php:272
+msgid "Prepared to send"
+msgstr "Готова к отправке"
+
+#: includes/wc-shiptor-functions.php:273
+msgid "Sent"
+msgstr "Отправлена"
+
+#: includes/wc-shiptor-functions.php:274
+msgid "Delivered"
+msgstr "Доставлена"
+
+#: includes/wc-shiptor-functions.php:275
+msgid "Removed"
+msgstr "Удалена"
+
+#: includes/wc-shiptor-functions.php:276
+msgid "Recycled"
+msgstr "Утилизирована"
+
+#: includes/wc-shiptor-functions.php:277
+msgid "Waiting in line for return"
+msgstr "Стоит в очереди на возврат в ИМ"
+
+#: includes/wc-shiptor-functions.php:278
+msgid "Returned to the sender"
+msgstr "Возвращена отправителю"
+
+#: includes/wc-shiptor-functions.php:279
+msgid "Lost"
+msgstr "Утеряна"
+
+#: includes/wc-shiptor-functions.php:280
+msgid "Resubmitted"
+msgstr "Отправлена повторно"
+
+#: includes/wc-shiptor-functions.php:281
+msgid "Waiting at the delivery point"
+msgstr "Ожидает в пункте выдачи"
+
+#: includes/wc-shiptor-functions.php:681
+#, php-format
+msgid ""
+"\"%s\" is a <strong>virtual item</strong>. It will not be possible to place it as "
+"one order together with ordinary items."
+msgstr ""
+"\"%s\" является <strong>виртуальным</strong> товаром. Совместное оформление "
+"заказа с обычными товарами будет не возможно."
+
+#: includes/wc-shiptor-functions.php:713
+msgid ""
+"There are items in the basket which do not require delivery. Please make them as "
+"separate orders."
+msgstr ""
+"В корзине есть товары, не требующие доставки. Пожалуйста оформите заказы "
+"раздельно."
+
+#: includes/wc-shiptor-functions.php:719
+msgid ""
+"You cannot continue placing your order because there are \"miscellaneous\" items "
+"in your basket. Please delete either real or virtual items from the basket and "
+"continue placing the order."
+msgstr ""
+"Вы не можете продолжить оформление заказа, так как в вашей корзине находятся "
+"\"смешанные\" товары. Удалите либо физические либо виртуальные товары из корзины "
+"и продолжите оформление заказа."
+
+#: includes/wc-shiptor-functions.php:806
+msgid "Update prices"
+msgstr "Обновить цены"
+
+#: includes/wc-shiptor-functions.php:814
+msgid "Enter a locality"
+msgstr "Введите населенный пункт"
+
+#: includes/admin/class-wc-shiptor-admin-help.php:25
+msgid "Shiptor instructions"
+msgstr "Инстуркции Shiptor"
+
+#: includes/admin/class-wc-shiptor-admin-help.php:45
+msgid "About Shiptor"
+msgstr "О компании Shiptor"
+
+#: includes/admin/class-wc-shiptor-admin-help.php:49
+msgid "Tariffs Shiptor"
+msgstr "Тарифы Shiptor"
+
+#: includes/admin/class-wc-shiptor-admin-help.php:53
+msgid "Additional services Shiptor"
+msgstr "Дополнительные услуги Shiptor"
+
+#: includes/admin/class-wc-shiptor-admin-orders.php:69
+msgid "Invalid delivery point, please choose a new point"
+msgstr "Неверный пункт доставки, пожалуйста выберите новый"
+
+#: includes/admin/class-wc-shiptor-admin-orders.php:83
+msgid "Invalid delivery point dimensions, please choose a new point"
+msgstr ""
+"Неверные размеры посылки для выбранного пункта доставки, пожалуйста выберите "
+"новый "
+
+#: includes/admin/class-wc-shiptor-admin-orders.php:135
+#: includes/admin/class-wc-shiptor-admin-orders.php:264
+msgid "Order not found"
+msgstr "Заказ не найден"
+
+#: includes/admin/class-wc-shiptor-admin-orders.php:160
+msgid "Shipping method required"
+msgstr "Метод доставки обязателен"
+
+#: includes/admin/class-wc-shiptor-admin-orders.php:169
+msgid "City required"
+msgstr "Город обязателен"
+
+#: includes/admin/class-wc-shiptor-admin-orders.php:178
+msgid "Delivery point required"
+msgstr "Пункт доставки обязателен"
+
+#: includes/admin/class-wc-shiptor-admin-orders.php:185
+msgid "Address required"
+msgstr "Адрес обязателен"
+
+#: includes/admin/class-wc-shiptor-admin-orders.php:305
+msgid "Shiptor order history"
+msgstr "История заказа Shiptor"
+
+#: includes/admin/class-wc-shiptor-admin-orders.php:307
+#, php-format
+msgid "Shiptor order %s"
+msgstr "Shiptor заказ %s"
+
+#: includes/admin/class-wc-shiptor-admin-orders.php:373
+msgid "Invalid order"
+msgstr "Недействительный заказ"
+
+#: includes/admin/class-wc-shiptor-admin-orders.php:434
+msgid "Customer data not filled in or saved."
+msgstr "Не заполнены или не сохранены данные о клиенте. Проверьте и обновите заказ."
+
+#: includes/admin/class-wc-shiptor-admin-orders.php:666
+msgid "Can not create an order"
+msgstr "Не удается создать заказ"
+
+#: includes/admin/class-wc-shiptor-admin-orders.php:680
+msgid "Missing parameters"
+msgstr "Параметры отсутсвуют"
+
+#: includes/admin/class-wc-shiptor-admin-orders.php:754
+msgid "Send shiptor tracking code"
+msgstr "Отправить код отслеживания Shiptor"
+
+#: includes/admin/class-wc-shiptor-admin-orders.php:771
+#: includes/admin/class-wc-shiptor-product-data.php:22
+#: includes/shipping/class-wc-shiptor-shipping-host.php:15
+msgid "Shiptor"
+msgstr "Shiptor"
+
+#: includes/admin/class-wc-shiptor-admin-orders.php:803
+msgid "Send chosen orders to Shiptor"
+msgstr "Отправить выбранные заказы в Shiptor"
+
+#: includes/admin/class-wc-shiptor-admin-orders.php:981
+#, php-format
+msgid "You can not send order %s to the Shiptor."
+msgstr "Заказ %s нельзя отправлять на Шиптор."
+
+#: includes/admin/class-wc-shiptor-admin-orders.php:992
+#, php-format
+msgid ""
+"No order was shipped from %s. Make sure that the selected orders have not been "
+"shipped before, the delivery method from the Shiptor module is selected, or the "
+"required fields are filled. ID-% s"
+msgstr ""
+"Из %s ни один заказ не был отправлен. Убедитесь, что выбранные заказы  не были "
+"отправлены ранее, выбран способ доставки от модуля Shiptor и у них не заполнены "
+"обязательные поля ID - %s"
+
+#: includes/admin/class-wc-shiptor-admin-orders.php:995
+#, php-format
+msgid "%d order of %d has been sent."
+msgid_plural "%d orders of %d were sent."
+msgstr[0] "%d заказ из %d был отправлен."
+msgstr[1] "%d заказа(ов) из %d были отправлены."
+msgstr[2] "%d заказа(ов) из %d были отправлены."
+
+#: includes/admin/class-wc-shiptor-admin-orders.php:998
+#, php-format
+msgid ""
+"%d of %d orders(s) have been sent. Make sure that the selected orders have not "
+"been shipped before, the delivery method from the Shiptor module has been "
+"selected, or the required fields are filled"
+msgstr ""
+"%d из %d заказа(ов) были отправлены. Убедитесь, что выбранные заказы не были "
+"отправлены ранее, выбран способ доставки от модуля Shiptor и у них заполнены "
+"обязательные поля"
+
+#: includes/admin/class-wc-shiptor-product-data.php:38
+msgid "On Shiptor stock"
+msgstr "На складе Shiptor"
+
+#: includes/admin/class-wc-shiptor-product-data.php:39
+msgid "Expected in stock"
+msgstr "Ожидается на склад"
+
+#: includes/admin/class-wc-shiptor-setup-wizard.php:30
+msgid "Shiptor setup"
+msgstr "Установка Shiptor"
+
+#: includes/admin/class-wc-shiptor-setup-wizard.php:35
+msgid "Shipping"
+msgstr "Доставка"
+
+#: includes/admin/class-wc-shiptor-setup-wizard.php:40
+msgid "Activate"
+msgstr "Активировано"
+
+#: includes/admin/class-wc-shiptor-setup-wizard.php:45
+msgid "Ready!"
+msgstr "Готово!"
+
+#: includes/emails/class-wc-shiptor-tracking-email.php:18
+msgid "Shiptor Tracking Code"
+msgstr "Код отслеживания Shiptor"
+
+#: includes/emails/class-wc-shiptor-tracking-email.php:20
+msgid "This email is sent when configured a tracking code within an order."
+msgstr "Этот email отправляется при настройке кода отслеживания в заказе."
+
+#: includes/emails/class-wc-shiptor-tracking-email.php:21
+msgid "Your order has been sent"
+msgstr "Ваш заказ отправлен"
+
+#: includes/emails/class-wc-shiptor-tracking-email.php:22
+msgid "[{site_title}] Your order {order_number} has been sent by Shiptor"
+msgstr ""
+"[{site_title}] Ваш заказ {order_number} отправлен через курьерскую службу Shiptor"
+
+#: includes/emails/class-wc-shiptor-tracking-email.php:23
+msgid "Hi there. Your recent order on {site_title} has been sent by Shiptor."
+msgstr ""
+"Здравствуйте. Ваш заказ на сайте {site_title} был отправлен через курьерскую "
+"службу Shiptor."
+
+#: includes/emails/class-wc-shiptor-tracking-email.php:25
+msgid ""
+"To track your delivery, use the following the tracking code(s): {tracking_code}"
+msgstr "Чтобы отслеживать доставку, используйте следующие ссылки: {tracking_code}"
+
+#: includes/emails/class-wc-shiptor-tracking-email.php:102
+msgid "Shiptor Tracking: "
+msgstr "Трек номер Shiptor: "
+
+#: includes/emails/class-wc-shiptor-tracking-email.php:108
+msgid "Personal account"
+msgstr "Личный кабинет"
+
+#: includes/emails/class-wc-shiptor-tracking-email.php:27
+msgid ""
+"The delivery service is the responsibility of the Shiptor, but if you have any "
+"questions, please contact us."
+msgstr ""
+"Служба доставки Shiptor несёт ответсвенность за доставку вашего заказа, но если у "
+"вас есть какие либо вопросы, пожалуйста, свяжитесь с нами."
+
+#: includes/emails/class-wc-shiptor-tracking-email.php:42
+msgid "Enable this email notification"
+msgstr "Включить это уведомление"
+
+#: includes/emails/class-wc-shiptor-tracking-email.php:46
+msgid "Subject"
+msgstr "Тема"
+
+#: includes/emails/class-wc-shiptor-tracking-email.php:48
+#, php-format
+msgid ""
+"This controls the email subject line. Leave blank to use the default subject: "
+"<code>%s</code>."
+msgstr ""
+"Укажите тему сообщения для данного email. Оставьте пустым чтобы использовать тему "
+"по умолчанию: <code>%s</code>."
+
+#: includes/emails/class-wc-shiptor-tracking-email.php:54
+msgid "Email Heading"
+msgstr "Заголовок"
+
+#: includes/emails/class-wc-shiptor-tracking-email.php:56
+#, php-format
+msgid ""
+"This controls the main heading contained within the email. Leave blank to use the "
+"default heading: <code>%s</code>."
+msgstr ""
+"Укажите заголовок сообщения для данного email. Оставьте пустым чтобы использовать "
+"заголовок по умолчанию: <code>%s</code>."
+
+#: includes/emails/class-wc-shiptor-tracking-email.php:62
+msgid "Email Content"
+msgstr "Содержание"
+
+#: includes/emails/class-wc-shiptor-tracking-email.php:64
+#, php-format
+msgid ""
+"This controls the initial content of the email. Leave blank to use the default "
+"content: <code>%s</code>."
+msgstr ""
+"Укажите содержание сообщения для данного email. Оставьте пустым чтобы "
+"использовать текст по умолчанию: <code>%s</code>."
+
+#: includes/emails/class-wc-shiptor-tracking-email.php:70
+msgid "Email type"
+msgstr "Тип"
+
+#: includes/emails/class-wc-shiptor-tracking-email.php:72
+msgid "Choose which format of email to send."
+msgstr "Выберите в каком формате отправлять сообщение."
+
+#: includes/emails/class-wc-shiptor-tracking-email.php:86
+msgid "Plain text"
+msgstr "Обычный текст"
+
+#: includes/emails/class-wc-shiptor-tracking-email.php:89
+msgid "HTML"
+msgstr "HTML"
+
+#: includes/emails/class-wc-shiptor-tracking-email.php:90
+msgid "Multipart"
+msgstr "Multipart"
+
+#: includes/emails/class-wc-shiptor-tracking-email.php:153
+#, php-format
+msgid "%s email notification manually sent."
+msgstr "%s уведомление отплавлено на e-mail вручную."
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:19
+#, php-format
+msgid "%s is a shipping method from Shiptor."
+msgstr "%s - метод доставки от Shiptor."
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:229
+#, php-format
+msgid "Method %s: field %s is required"
+msgstr "Метод %s: поле %s обязательно"
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:254
+#: includes/shipping/class-wc-shiptor-shipping-host.php:256
+msgid "Synchronize methods with API"
+msgstr "Синхронизировать с API"
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:264
+msgid "Shipping methods"
+msgstr "Методы доставки"
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:499
+#: includes/admin/views/html-admin-create-order.php:69
+#: includes/admin/views/html-admin-create-order.php:209
+#: includes/admin/views/html-admin-edit-order-details.php:72
+msgid "Select"
+msgstr "Выбрать"
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:729
+#: includes/shipping/class-wc-shiptor-shipping-host.php:773
+msgid "Delivery Time"
+msgstr "Время доставки"
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:731
+msgid "Enable Shipping Method"
+msgstr "Включить метод доставки"
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:735
+msgid "Title"
+msgstr "Заголовок"
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:742
+msgid "Behavior Options"
+msgstr "Вспомогательные настройки"
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:755
+msgid "Collect from the warehouse? (only fullfilment)"
+msgstr "Собирать со склада? (только фулфилмент)"
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:756
+msgid "On/Off (Only fulfillment)"
+msgstr "Да/Нет (Только фулфилмент)"
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:761
+msgid "enable/disable collection of parcels sent with this profile"
+msgstr ""
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:764
+msgid "Shipping Class"
+msgstr "Класс доставки"
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:766
+msgid "If necessary, select a shipping class to apply this method."
+msgstr ""
+"При необходимости выберите класс доставки, который будет применим имеено к этому "
+"методу доставки."
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:775
+msgid "Show estimated delivery time"
+msgstr "Показать расчетное время доставки"
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:776
+msgid "Display the estimated delivery time in working days."
+msgstr "Отобразить предполагаемое время доставки в календарных днях."
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:781
+msgid "Additional Days"
+msgstr "Дополнительные дни"
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:783
+msgid "Additional working days to the estimated delivery. Only positive values"
+msgstr ""
+"Прибавлять количество дней доствки с учётом рабочих дней компании. Только "
+"положительное значение"
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:789
+msgid "Handling Fee/Discount"
+msgstr "Наценка/Скидка"
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:791
+msgid ""
+"Enter an amount, e.g. 250, or a percentage, e.g. 5%. If amount is negative e.g. "
+"-250 or a percentage, e.g. -5% a discount is applied. Leave blank to disable."
+msgstr ""
+"Можно указывать сумму/проценты (пример 250 или 5%).\n"
+"Если значение отрицательное (-250 или -5%), действует скидка. Оставьте пустым "
+"если не хотите использовать"
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:797
+msgid "Handling Fee type"
+msgstr "Тип наценки"
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:799
+msgid "Choose how to apply a surcharge"
+msgstr "Выберите способ применения наценки"
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:812
+msgid ""
+"Enter minimum order price for available this method. Leave blank if you dont "
+"wanna use this option."
+msgstr ""
+"Введите минимальную сумму заказа при которой данный метод будет доступен. "
+"Оставьте пустым если не хотите использовать."
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:820
+msgid "Enter the amount at which this method will be free"
+msgstr ""
+"Введите стоимость заказа при достижении которой данный метод станет бесплатным"
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:826
+msgid "Fixed cost"
+msgstr "Фиксированная стоимость"
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:828
+msgid "Enter the fixed amount for this method"
+msgstr "Введите фиксированную стоимость для данного метода"
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:842
+msgid "Delivery to cities"
+msgstr "Доставка в города"
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:844
+msgid "Enable or disable this delivery method to specific cities."
+msgstr "Вкл/Выкл этот метод доставки для определённых городов."
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:849
+msgid "Disabled"
+msgstr "Выключено"
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:850
+msgid "Enable for specified cities"
+msgstr "Влючить для определённых городов"
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:851
+msgid "Disable for specified cities"
+msgstr "Отключить для определённых городов"
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:855
+msgid "Cities"
+msgstr "Города"
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:857
+msgid "Cities list"
+msgstr "Список городов"
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:862
+msgid "End-to-end delivery options"
+msgstr "Параметры прямой(сквозной) доставки"
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:864
+msgid ""
+"Enter the default parameters for end-to-end delivery. Otherwise, end-to-end "
+"delivery methods will not be available."
+msgstr ""
+"Заполните параметры отправления по умолчанию для прямой(сквозной) доставки. Вы "
+"также сможете изменить их в заказе."
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:867
+#: includes/admin/views/html-admin-create-order.php:179
+msgid "Sender city"
+msgstr "Город отправителя"
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:871
+msgid "Select the city of origin."
+msgstr "Выберите город из которого будет осуществляться доставка."
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:875
+msgid "Departure point"
+msgstr "Пункт отправки"
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:886
+#: includes/admin/views/html-admin-create-order.php:133
+msgid "Sender name"
+msgstr "Имя отправителя"
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:890
+msgid "Enter sender name. Can be personal name or Organization name."
+msgstr "Введите имя отправителя. Может быть личным именем или название организации."
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:893
+#: includes/admin/views/html-admin-create-order.php:163
+msgid "Sender E-mail"
+msgstr "E-mail отправителя"
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:896
+msgid "Enter sender e-mail."
+msgstr "Введите e-mail отправителя."
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:901
+#: includes/admin/views/html-admin-create-order.php:147
+msgid "Sender phone"
+msgstr "Телефон отправителя"
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:904
+msgid "Enter sender phone."
+msgstr "Введите телефон отправителя."
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:917
+msgid "Departure address"
+msgstr "Адрес отправления"
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:1001
+msgid "Any Shipping Class"
+msgstr "Любой класс доставки"
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:1002
+msgid "No Shipping Class"
+msgstr "Не использовать классы"
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:1398
+msgid "First name must be latin"
+msgstr "Имя должно быть на латинице"
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:1402
+msgid "Last name must be latin"
+msgstr "Фамилия должна быть на латинице"
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:1406
+msgid "City must be latin"
+msgstr "Город должен быть на латинице"
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:1410
+msgid "Address must be latin"
+msgstr "Адрес должен быть на латинице"
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:1423
+msgid "You didn't select a delivery point."
+msgstr "Вы не выбрали пункт выдачи заказов."
+
+#: includes/shipping/class-wc-shiptor-shipping-host.php:1432
+msgid ""
+"The delivery point of issue selected by you does not accept payment by cash on "
+"delivery. Please choose a different payment method or other delivery point."
+msgstr ""
+"Выбранный вами пункт доставки не принимает оплату наложенным платежом. Выберите "
+"другой способ оплаты или другую точку доставки."
+
+#: templates/emails/shiptor-tracking-code.php:12
+#: templates/emails/plain/shiptor-tracking-code.php:11
+msgid "For your reference, your order details are shown below."
+msgstr "Данные вашего заказа указаны ниже."
+
+#: templates/myaccount/tracking-codes.php:10
+#: includes/admin/views/html-list-table-order.php:57
+msgid "Tracking code:"
+msgstr "Код отслеживания:"
+
+#: templates/myaccount/tracking-codes.php:20
+msgid "View on Shiptor"
+msgstr "Посмотреть на сайте Shiptor"
+
+#: templates/myaccount/tracking-title.php:7
+msgid "Shiptor delivery tracking"
+msgstr "Отслеживание доставки Shiptor"
+
+#: templates/single-product/calculate-shipping.php:15
+msgid "Shipping: "
+msgstr "Доставка: "
+
+#: includes/admin/views/html-admin-create-order.php:18
+msgid "Order details"
+msgstr "Детали заказа"
+
+#: includes/admin/views/html-admin-create-order.php:28
+#: includes/admin/views/html-admin-edit-order-details.php:8
+msgid "Method name: "
+msgstr "Название метода: "
+
+#: includes/admin/views/html-admin-create-order.php:32
+msgid "Country: "
+msgstr "Страна: "
+
+#: includes/admin/views/html-admin-create-order.php:36
+#: includes/admin/views/html-admin-edit-order-details.php:24
+msgid "City: "
+msgstr "Город: "
+
+#: includes/admin/views/html-admin-create-order.php:44
+#: includes/admin/views/html-admin-edit-order-details.php:32
+msgid "Delivery point: "
+msgstr "Пункт выдачи: "
+
+#: includes/admin/views/html-admin-create-order.php:74
+#: includes/admin/views/html-admin-edit-order-details.php:78
+msgid "Address: "
+msgstr "Адрес: "
+
+#: includes/admin/views/html-admin-create-order.php:88
+msgid "Payment method: "
+msgstr "Метод оплаты: "
+
+#: includes/admin/views/html-admin-create-order.php:94
+msgid "C.O.D. : "
+msgstr "Наложенный платёж: "
+
+#: includes/admin/views/html-admin-create-order.php:98
+msgid "Declared cost : "
+msgstr "Объявленная ценность: "
+
+#: includes/admin/views/html-admin-create-order.php:103
+msgid "Order note : "
+msgstr "Примечание к заказу: "
+
+#: includes/admin/views/html-admin-create-order.php:122
+msgid "Details of the sender"
+msgstr "Детали отправки"
+
+#: includes/admin/views/html-admin-create-order.php:195
+msgid "Departure point: "
+msgstr "Пункт отправки:"
+
+#: includes/admin/views/html-admin-create-order.php:214
+msgid "Sender address"
+msgstr "Адрес отправителя"
+
+#: includes/admin/views/html-admin-create-order.php:231
+msgid "Date"
+msgstr "Дата"
+
+#: includes/admin/views/html-admin-create-order.php:247
+msgid "Confirm Automatically?"
+msgstr "Подтвердить автоматически?"
+
+#: includes/admin/views/html-admin-create-order.php:260
+msgid "Payment by card?"
+msgstr "Оплата картой?"
+
+#: includes/admin/views/html-admin-create-order.php:276
+msgid "Do not collect the parcel (only fullfilment)"
+msgstr "Не собирать посылку? (только фулфилмент)"
+
+#: includes/admin/views/html-admin-create-order.php:304
+msgid "Create order"
+msgstr "Создать заказ"
+
+#: includes/admin/views/html-admin-edit-order-details.php:98
+msgid "Save"
+msgstr ""
+
+#: includes/admin/views/html-admin-edit-order.php:10
+#, php-format
+msgid "Status: %s"
+msgstr "Статус: %s"
+
+#: includes/admin/views/html-admin-edit-order.php:11
+#, php-format
+msgid "Tracking code: %s"
+msgstr "Код отслеживания: %s"
+
+#: includes/admin/views/html-admin-edit-order.php:14
+msgid "Print Barcode"
+msgstr "Распечатать штрих-код"
+
+#: includes/admin/views/html-admin-help-message.php:15
+msgid "Thank you for using our WooCommerce Shiptor plugin free!"
+msgstr "Спасибо что используете наш бесплатный плагин WooCommerce Shiptor!"
+
+#: includes/admin/views/html-admin-help-message.php:17
+msgid "Contact us"
+msgstr "Связаться с нами"
+
+#: includes/admin/views/html-admin-missing-dependencies.php:20
+msgid "depends on the last version of WooCommerce to work!"
+msgstr "зависит от последней версии WooCommerce!"
+
+#: includes/admin/views/html-admin-missing-dependencies.php:23
+msgid "Active WooCommerce"
+msgstr "Активировать Woocommerce"
+
+#: includes/admin/views/html-admin-missing-dependencies.php:32
+msgid "Install WooCommerce"
+msgstr "Установить Woocommerce"
+
+#: includes/admin/views/html-admin-tabs.php:20
+msgid "Cache and logs"
+msgstr "Кэширование и логи"
+
+#: includes/admin/views/html-admin-yandex-map-template.php:19
+#: templates/checkout/modals/pickpoints.php:19
+msgid "Save pickpoint"
+msgstr "Сохранить пункт выдачи"
+
+#: includes/admin/views/html-admin-yandex-map-template.php:22
+#: templates/checkout/modals/pickpoints.php:22
+msgid "Open map"
+msgstr "Открыть карту"
+
+#: includes/admin/views/html-admin-yandex-map-template.php:23
+#: templates/checkout/modals/pickpoints.php:23
+msgid "Open list"
+msgstr "Открыть списком"
+
+#: includes/admin/views/html-list-table-create-order.php:23
+#: includes/admin/views/html-list-table-create-order.php:35
+#: includes/admin/views/html-list-table-order.php:53
+msgid "Delivery method:"
+msgstr "Метод доставки:"
+
+#: includes/admin/views/html-list-table-create-order.php:30
+msgid "Send order"
+msgstr "Отправить заказ"
+
+#: includes/admin/views/html-list-table-create-order.php:36
+msgid "To send the order you need to select the Sender's issue point"
+msgstr "Чтобы отправить заказ необходимо выбрать ПВЗ отправителя"
+
+#: includes/admin/views/html-list-table-order.php:61
+msgid "Status:"
+msgstr "Статус:"
+
+#: includes/admin/views/html-list-table-order.php:66
+msgid "Shipping number:"
+msgstr "Номер отгрузки:"
+
+#: includes/admin/views/html-product-data.php:12
+msgid "English product name"
+msgstr "Название товара на английском"
+
+#: includes/admin/views/html-product-data.php:13
+msgid "Enter product name in English."
+msgstr "Введите название товара на английском языке."
+
+#: includes/admin/views/html-product-data.php:15
+msgid "Enter product name in English. It is necessary for international delivery."
+msgstr ""
+"Введите название на английском языке. Это необходимо для международной доставки."
+
+#: includes/admin/views/html-product-data.php:21
+msgid "Article"
+msgstr "Артикул"
+
+#: includes/admin/views/html-product-data.php:24
+msgid "Enter original article on the product."
+msgstr "Введите оригинальный артикул данного товара."
+
+#: includes/admin/views/html-product-data.php:33
+msgid "Is fragile"
+msgstr "Хрупкий"
+
+#: includes/admin/views/html-product-data.php:34
+msgid "Is fragile product?"
+msgstr "Является ли данный товар хрупким?"
+
+#: includes/admin/views/html-product-data.php:39
+msgid "Is danger"
+msgstr "Опасный"
+
+#: includes/admin/views/html-product-data.php:40
+msgid "Is danger product?"
+msgstr "Является ли данный товар опасным?"
+
+#: includes/admin/views/html-product-data.php:45
+msgid "Is perishable"
+msgstr "Скоропортящийся"
+
+#: includes/admin/views/html-product-data.php:46
+msgid "Is product perishable?"
+msgstr "Является ли данный товар скоропортящимся?"
+
+#: includes/admin/views/html-product-data.php:51
+msgid "Need box"
+msgstr "Нужна упаковка"
+
+#: includes/admin/views/html-product-data.php:52
+msgid "Need to pack this product?"
+msgstr "Нужно упаковывать данный товар?"
+
+#. Name of the plugin
+msgid "Логистическая платформа Shiptor для WooCommerce"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Официальный плагин Shiptor для WooCommerce. Добавляет на сайт автоматизированный "
+"расчет доставки и возможность передавать заказы в логистическую платформу Shiptor."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://shiptor.ru/integration/modules/woo"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://shiptor.ru"
+msgstr ""
